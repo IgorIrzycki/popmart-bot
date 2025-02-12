@@ -78,4 +78,4 @@ while True:
     else:
         print(f"⏳ [{get_current_time()}] Oczekiwanie na ponowne sprawdzenie dostępności...")
 
-    time.sleep(180)  # Sprawdzanie co 3 minuty
+    time.sleep(180)  # Sprawdzanie co 3 minut
