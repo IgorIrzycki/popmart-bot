@@ -31,6 +31,7 @@ def get_current_time():
 
 # Funkcja sprawdzająca dostępność produktu
 def check_availability():
+    global driver
     try:
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         driver.get(URL)
